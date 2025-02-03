@@ -1,0 +1,247 @@
+*{
+    padding: 0px;
+    margin: 0px;   
+}
+.border{
+    background-color:#82AE46;
+    color: #ffff;
+    font-size: 15px;
+    padding-top: 8px;
+
+}
+.border span{
+    margin: 130px;
+  
+}
+
+@media only screen and (max-width:768px) {
+    .border{
+       font-size: 15px;
+       background-size:cover;
+    }
+    
+}
+
+h1{
+   margin-left: 100px;
+    padding-top: 20px;
+    color: #82AE46;
+    font-size: 30px;
+}
+h1:hover{
+    color: black;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:768px) {
+    h1{
+        margin: auto;
+       font-size: 30px;
+       padding: 10px;
+       color: white;
+       background-color: black;
+       background-size: cover;
+      
+    }
+    }
+    
+ /* .navbar{
+    margin-right: 100px; 
+     
+} */
+
+  /* ul li{
+   
+    list-style-type: none;
+    float: right;
+    margin: 30px;
+    margin-top: 25px;
+    font-size: 12px;  
+}   */
+
+ /* .bold{
+    color: #82AE46;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 110px;
+} */
+/* #bold:hover{
+    color: black;
+}    */
+
+.navbar {
+
+    float: right;
+    background-color:#ffffff;
+    /* position: relative; */
+}
+
+.toggle {
+    display: none; 
+ } 
+
+.toggle-label {
+  
+    display: block;
+    /* padding: 15px; */
+    margin: -40px;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+ } 
+
+.nav {
+    list-style-type: none;
+    display: none;
+}
+
+.nav li {
+    position: relative;
+    padding: 15px;
+    color: black;
+    cursor: pointer;
+}
+
+.nav li:hover {
+    background-color: #82AE46;
+}
+
+/* Show navigation when the main toggle is checked*/
+ .toggle:checked + .toggle-label + .nav {
+    display: block;  /*Show navigation*/ 
+} 
+
+/* Dropdown styles */
+.dropdown {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;  /*Hide dropdown by default */
+    background-color: white;  /*Slightly different background for dropdown */
+}
+
+.dropdown-toggle {
+    display: none;  /*Hide the dropdown checkbox */
+}
+
+.dropdown-label {
+    cursor: pointer;
+    padding-left: 10px;
+    /* color: white; */
+}
+
+/* Show dropdown when the dropdown toggle is checked */
+.dropdown-toggle:checked + .dropdown-label + .dropdown {
+    display: block;  /*Show dropdown */
+} 
+@media only screen and (max-width:768px) {
+    .toggle-label{
+      color: white;
+
+
+    }
+    
+}
+
+
+
+h2{
+    padding-top: 250px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 70px;
+    font-style:italic;
+    font-family:'Times New Roman', Times, serif;
+}
+h6{
+    padding-top: 20px; 
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    font-style:italic;
+    font-family:sans-serif;
+}
+
+@media only screen and (max-width:768px) {
+    h2{
+      font-size: 25px;
+    }
+    h6{
+        font-size: 20px;
+        font-style: italic;
+    }  
+}
+
+ #btn{
+     margin-top: 25px;
+    margin-left: 600px;
+     width: 130px;
+     height: 40px; 
+     font-size: 15px;
+    color: #ffffff;
+    background-color: #82AE46;
+    border:2px solid #82AE46 ;
+    border-radius: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+     
+}
+ #btn:hover{
+    background-color:transparent;
+    transition: 0.5s;
+    color:#82AE46 ;
+    border-color: #82AE46;
+
+}
+
+
+@media only screen and (max-width:768px) {
+    #btn{
+     margin-left: 10px;
+
+    }
+    
+}
+.homepage{
+    margin-top: 30px;
+    background-image: url(../img/bg_1\ veg.jpg);
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: slide 10s  infinite;  
+}
+
+@keyframes slide{
+    0%{
+        background-image: url(../img/bg_1\ veg.jpg);
+    }
+    25%{
+        background-image: url(../img/bg_2\ veg.jpg);
+    }
+    50%{
+        background-image: url(../img/bg_1\ veg.jpg);
+    }
+    75%{
+        background-image: url(../img/bg_2\ veg.jpg);
+    }
+    100%{
+        background-image: url(../img/bg_1\ veg.jpg);
+    } 
+}
+
+
+
+@media only screen and (max-width:768px) {
+    .homepage{
+        margin: auto;
+        height: 900px;
+        width: auto;
+     background-size: cover;
+    }
+    
+}
+
+
